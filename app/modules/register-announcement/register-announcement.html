@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="../../../lib/bootstrap-5.0.1-dist/bootstrap-5.0.1-dist/css/bootstrap.css">
+      <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="../register-announcement/register-announcement.css">
+      <title>Cadastro | DivideAê</title>
+  </head>
+  
+  <body>
+    <nav class="menu-header">
+      <ul>
+          <li>
+              <a href="../list-announcement/list-announcement.html">
+                  <i class='bx bx-notepad'></i>
+                  <b>Anúncios</b>
+              </a>
+          </li>
+          <li>
+              <a href="../register-announcement/register-announcement.html">
+                  <i class='bx bx-message-square-add'></i>
+                  <b>Criar Anuncio</b>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <i class='bx bx-dollar'></i>
+                  <b>Planos</b>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <i class='bx bxs-user-account'></i>
+                  <b>Minha Conta</b>
+              </a>
+          </li>
+      </ul>
+    </nav>  
+    <div class="content-form">
+      <div class="form-cadastro-anuncio"> 
+        <form class="row g-3">
+          <h2>Cadastre seu Anúncio</h2>
+          <div class="type-announcement">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+              <label class="form-check-label" for="flexRadioDefault1">
+                Não estou dividindo com ninguém no momento - Procuro pessoa e imóvel para dividir
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+              <label class="form-check-label" for="flexRadioDefault2">
+                Já estou morando no imóvel - Procuro apenas pessoa para dividir esse imóvel
+              </label>
+            </div>
+          </div>
+  
+          <div class="col-md-5">
+            <label for="inputEmail4" class="form-label">Tipo de Imóvel</label>
+              <select id="inputState" class="form-select">
+                <option selected></option>
+                <option>Apartamento</option>
+                <option>Casa</option>
+                <option>Kitnet</option>
+                <option>Sobreloja</option>
+                <option>República</option>
+                <option>Pensionato</option>
+              </select>
+          </div>
+  
+          <div class="col-5">
+            <label for="inputAddress2" class="form-label">Valor disposto(a) pagar</label>
+            <input type="number" class="form-control" id="inputAddress2" placeholder="R$650,00">
+          </div><br>
+  
+          <div class="col-md-3">
+            <label for="inputState" class="form-label">Estado</label>
+            <select id="inputState" class="form-select">
+            <option selected></option>
+            <option>...</option>
+            </select>
+          </div>
+  
+          <div class="col-md-4">
+            <label for="inputCity" class="form-label">Cidade</label>
+            <select id="inputState" class="form-select">
+              <option selected></option>
+              <option></option>
+            </select>
+          </div>
+  
+          <div class="col-md-4">
+            <label for="inputCity" class="form-label">Bairro</label>
+            <select id="inputState" class="form-select">
+              <option selected></option>
+              <option></option>
+            </select>
+          </div>
+  
+          <div class="col-10">
+            <label for="inputAddress2" class="form-label">Descreva sua Preferência de Localização</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Ex: Região Central ou Próximo a Universidade">
+          </div>
+  
+          <div class="col-md-4">
+            <label for="inputCity" class="form-label">Ocupação</label>
+            <select id="inputState" class="form-select">
+              <option selected></option>
+              <option>Estuda</option>
+              <option>Trabalha</option>
+              <option>Estuda e Trabalha</option>
+            </select>
+          </div>
+  
+          <div class="col-6">
+            <label for="inputAddress2" class="form-label">Descreva sua Ocupação</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Ex: Sou Programador(a)">
+          </div>
+  
+          <div class="col-4">
+            <label for="inputAddress2" class="form-label">Data de Entrada(Preferencialmente)</label>
+            <input type="date" class="form-control" id="inputAddress2">
+          </div>
+  
+          <div class="col-md-4">
+            <label for="inputEmail4" class="form-label">Vaga</label>
+              <select id="inputState" class="form-select">
+                <option selected>Escolha</option>
+                <option>Feminina</option>
+                <option>Masculina</option>
+                <option>Unissex</option>
+                <option>LGBTQI+</option>
+              </select>
+          </div>
+              
+          <h4>Informações Complementares</h4>
+          <div class="informations-additionals">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                  Precisa de Garagem
+              </label>
+            </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+            <label class="form-check-label" for="flexCheckChecked">
+               Possui Animal
+            </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+              <label class="form-check-label" for="flexCheckChecked">
+                Fumante
+              </label>
+            </div>
+          </div>  
+  
+          <div class="col-12 buttons">
+            <a class="btn btn-primary" href="../login/login.html" role="button">Salvar</a>&nbsp;&nbsp;
+            <a class="btn btn-primary" href="../login/login.html" role="button">Cancelar</a>
+          </div>
+        </form>
+      </div>
+    
+      <div class="instructions">
+        <h4>Instruções</h4>
+        <h6>Confira as Dicas Abaixo para Fazer um Cadastro Top!</h6>
+          <ul>
+            <li>Preencha todos os campos</li>
+            <li>Insira um e-mail válido</li>
+            <li>Informe Referências Claras, Ex: Próximo ao Colégio Y</li>
+            <li>Use letras maiúsculas e minúsculas na senha</li>
+            <li>Use números na senha</li>
+            <li>Use caracteres espeaciais na senha</li>
+            <li>Anexe uma foto visível, evite acessórios</li>
+            <li>Confirme Todas as Informações antes de salvar</li>
+          </ul>
+  
+          <img src="../../assets/images/list-register-announcement-.svg" alt="" width="300" height="300">
+      </div>    
+    </div>
+  </body>
+  </html>

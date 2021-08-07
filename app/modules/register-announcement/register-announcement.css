@@ -1,0 +1,79 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    height: 30vh;
+    display: flex;
+}
+
+.menu-header {
+    background-color: #f0f0f0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    justify-content: baseline;
+}
+
+.menu-header ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.menu-header li {
+    list-style: none;
+}
+
+.menu-header a{
+    color: #000000;
+    padding: 9px;
+    text-decoration: none;
+} 
+
+.menu-header i{
+   
+}
+
+h2{
+    font-weight: bold;
+}
+
+h3, h4, h6{
+    text-align: center;
+    font-weight: bold;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    border: none;
+}
+
+.content-form{
+    display: flex;
+    margin: 1.5% 1.5%;
+    margin-top: 60px;
+}
+
+.form-cadastro-anuncio{
+    display: flex;
+    width: 65%;
+    background-color: #FDFEFE;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.instructions{
+    background-color: #FBFCFC;
+    width: 35%;
+}
+
+
+
+
+

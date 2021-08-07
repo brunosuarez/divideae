@@ -1,0 +1,49 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    height: 30vh;
+    display: flex;
+}
+
+.menu-header {
+    background-color: #f0f0f0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    justify-content: baseline;
+    
+}
+
+.menu-header ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.menu-header li {
+    list-style: none;
+}
+
+.menu-header a{
+    color: #000000;
+    padding: 9px;
+    text-decoration: none;
+} 
+
+.menu-header i{
+   
+}
+
+.login{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.footer-login{
+    text-align: center;
+    font-weight: bold;
+}
