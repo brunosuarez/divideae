@@ -5,6 +5,7 @@
 header {
     height: 30vh;
     display: flex;
+    align-items: baseline;
 }
 
 .menu-header {
@@ -13,7 +14,6 @@ header {
     top: 0;
     width: 100vw;
     justify-content: baseline;
-    
 }
 
 .menu-header ul {
@@ -35,7 +35,6 @@ header {
 .container{
     display: flex;
     margin-top: 180px;
-    justify-content: center;
     justify-content: space-between;
 }
 
@@ -46,7 +45,26 @@ header {
     height: 280px;
 }
 
+h4{
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+
+#bt-box-one{
+    margin-left: 330px;
+}
+
+#bt-box-two{
+    margin-left: 430px;
+}
+
+#bt-box-three{
+    margin-left: 430px;
+}
+
 h3{
     font-weight: bold;
     text-align: center;
+    font-size: 45px;
 }
