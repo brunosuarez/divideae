@@ -5,10 +5,11 @@
 header {
     height: 30vh;
     display: flex;
+    align-items: baseline;
 }
 
 .menu-header {
-    background-color: #f0f0f0;
+    background-color: #4A148C;
     position: fixed;
     top: 0;
     width: 100vw;
@@ -26,13 +27,10 @@ header {
 }
 
 .menu-header a{
-    color: #000000;
+    color: #fff;
     padding: 9px;
     text-decoration: none;
-} 
-
-.menu-header i{
-   
+    font-size: 20px;
 }
 
 .login{
